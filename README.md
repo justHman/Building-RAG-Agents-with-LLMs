@@ -26,7 +26,7 @@ Chạy tiếp cell sau để tạo ra file server_app.py:
 
 ![image](https://github.com/user-attachments/assets/746a4ffb-0299-4e37-b575-af5da1d41cc4)
 
-Step 4: Chạy cell dưới ảnh để tạo ra link: Gradio
+Step 4: Ở notebook 8 chạy cell dưới ảnh để tạo ra link: Gradio
 
 ![image](https://github.com/user-attachments/assets/a5a79cd4-be09-4034-b808-b009bac477b9)
 
