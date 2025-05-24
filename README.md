@@ -4,7 +4,7 @@ Step 1: Tìm bài báo mới nhất trong vòng 1 tháng!
 ![image](https://github.com/user-attachments/assets/6b236d2a-d686-430a-8726-d52916b5bb17)
 ![image](https://github.com/user-attachments/assets/dc79a7f8-c4ce-404e-81c6-ebc3d01d2041)
 
-Step 2: Chạy notebook 7 (07_vectorstores.ipynb)
+Step 2: Chạy các cell ở notebook 7 (07_vectorstores.ipynb)
 
 ![image](https://github.com/user-attachments/assets/a117e902-937e-4211-b414-a3dd63f048ff)
 
