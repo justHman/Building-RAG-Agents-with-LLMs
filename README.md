@@ -15,8 +15,6 @@
   - [🔹 Step 2: Vector hoá với notebook 07](#-step-2-vector-hoá-với-notebook-07)
   - [🔹 Step 3: Khởi tạo API với notebook 09](#-step-3-khởi-tạo-api-với-notebook-09)
   - [🔹 Step 4: Giao diện Gradio với notebook 08](#-step-4-giao-diện-gradio-với-notebook-08)
-- [✅ Demo](#-demo)
-- [📄 Giấy phép](#-giấy-phép)
 
 ---
 
@@ -24,76 +22,49 @@
 
 Dự án hướng dẫn xây dựng một hệ thống **RAG Agent (Retrieval-Augmented Generation)** kết hợp mô hình ngôn ngữ lớn (LLM) với thông tin từ các bài báo khoa học trên arXiv. Toàn bộ quá trình được thực hiện trong Jupyter Notebook và giao diện được triển khai bằng Gradio.
 
----
 
 ---
-
 ## 📎 Hướng dẫn từng bước
 
-### 🔹 Step 1: Tìm bài báo trên arXiv
+# Step 1: Tìm bài báo mới nhất trong vòng 1 tháng!
 
-1. Truy cập [https://arxiv.org](https://arxiv.org) và tìm một bài báo mới trong vòng **1 tháng** gần đây.
-2. Ghi lại mã số của bài báo (VD: `2505.00040`).
+![image](https://github.com/user-attachments/assets/6b236d2a-d686-430a-8726-d52916b5bb17)
+![image](https://github.com/user-attachments/assets/dc79a7f8-c4ce-404e-81c6-ebc3d01d2041)
 
-Ví dụ:
+# Step 2: Chạy các cell ở notebook 7 (07_vectorstores.ipynb)
 
-📌 **Lưu ý**: Chỉ cần mã số arXiv, không cần tải bài viết.
+![image](https://github.com/user-attachments/assets/a117e902-937e-4211-b414-a3dd63f048ff)
 
-<img src="https://github.com/user-attachments/assets/6b236d2a-d686-430a-8726-d52916b5bb17" alt="step1" width="500"/>
-<img src="https://github.com/user-attachments/assets/dc79a7f8-c4ce-404e-81c6-ebc3d01d2041" alt="step1-2" width="500"/>
+-Ở task 1: thêm ID của bài báo đã tìm ở step 1 vào cell trong hình
 
----
+    +Ví dụ: [1] arXiv:2505.00040 [pdf, html, other] -> ArxivLoader(query="2505.00040").load(),
 
-### 🔹 Step 2: Vector hoá với notebook `07_vectorstores.ipynb`
+-Sau đó chạy các cell còn lại để tạo ra file docstore_index.tgz ở structure bên trái, nơi chứa các files notebook và src
 
-1. Mở notebook `07_vectorstores.ipynb`.
-2. Tìm đoạn code sau:
+# Step 3: Vào notebook 9 tìm phần hình dưới
 
-```python
-docs = [
-    ArxivLoader(query="2505.00040").load(),
-]
+![image](https://github.com/user-attachments/assets/08ad2191-076b-457a-aa36-cca008c645c4)
 
-### 🔹 Step 3: Khởi tạo API với notebook `09_server_app.ipynb`
+- Thay đổi code trong cell bằng code bên dưới và chạy cell đó
 
-1. Mở notebook `09_server_app.ipynb`.
+Link code:
+https://docs.google.com/document/d/1zmPgGvXUaWOG6CPtOg_6YRj2URT7hFIpZa8tFExy8Bk/edit?usp=sharing
 
-2. Tìm đến cell như bên dưới, nơi khởi tạo chuỗi QA từ index:
+-Chạy tiếp cell sau để tạo ra file server_app.py:
 
-   <img src="https://github.com/user-attachments/assets/08ad2191-076b-457a-aa36-cca008c645c4" alt="step3-1" width="500"/>
+![image](https://github.com/user-attachments/assets/746a4ffb-0299-4e37-b575-af5da1d41cc4)
 
-3. Thay thế toàn bộ nội dung trong cell đó bằng đoạn mã mới từ link:
+# Step 4: Ở notebook 8 chạy cell dưới ảnh để tạo ra link frontend: Gradio
 
-   📄 [🔗 Link đến đoạn mã cập nhật QAChain](https://docs.google.com/document/d/1zmPgGvXUaWOG6CPtOg_6YRj2URT7hFIpZa8tFExy8Bk/edit?usp=sharing)
+![image](https://github.com/user-attachments/assets/a5a79cd4-be09-4034-b808-b009bac477b9)
 
-4. Chạy cell tiếp theo (như ảnh dưới) để tạo file `server_app.py`:
+-Rồi bấm vào link và Evalue model
 
-   <img src="https://github.com/user-attachments/assets/746a4ffb-0299-4e37-b575-af5da1d41cc4" alt="step3-2" width="500"/>
+-Sau khi chạy xong -> Bấm Acesstask như hình dưới
 
-📦 **Kết quả:** Một file `server_app.py` được sinh ra, đóng vai trò backend API cho ứng dụng Gradio ở bước sau.
+![image](https://github.com/user-attachments/assets/dca604a1-cd30-4bdf-9f67-c8e700194db8)
 
 ---
 
-### 🔹 Step 4: Giao diện Gradio với notebook `08_gradio_ui.ipynb`
-
-1. Mở notebook `08_gradio_ui.ipynb`.
-
-2. Chạy cell có chứa mã khởi tạo giao diện Gradio:
-
-   <img src="https://github.com/user-attachments/assets/a5a79cd4-be09-4034-b808-b009bac477b9" alt="step4" width="500"/>
-
-3. Sau khi chạy xong, Gradio sẽ sinh ra một đường dẫn:
-
-   - Bấm vào link để truy cập giao diện người dùng.
-   - Bắt đầu tương tác với model bằng cách nhập câu hỏi về bài báo đã nạp.
-
-4. Sau khi thử nghiệm thành công, bấm vào nút **Access Task** như hình dưới để xác nhận hoàn tất task:
-
-   <img src="https://github.com/user-attachments/assets/dca604a1-cd30-4bdf-9f67-c8e700194db8" alt="access-task" width="500"/>
-
----
-
-🚀 Vậy là bạn đã hoàn thành toàn bộ quy trình xây dựng RAG Agent tích hợp giao diện người dùng. Nếu thấy hữu ích, hãy ⭐ repo hoặc follow tác giả nhé!
-
-
+## Nếu thành công ròi, cho xin 1 follow nhé :>
 
