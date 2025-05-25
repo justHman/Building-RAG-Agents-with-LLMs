@@ -31,9 +31,11 @@ Dự án hướng dẫn xây dựng một hệ thống **RAG Agent (Retrieval-Au
 ![image](https://github.com/user-attachments/assets/6b236d2a-d686-430a-8726-d52916b5bb17)
 ![image](https://github.com/user-attachments/assets/dc79a7f8-c4ce-404e-81c6-ebc3d01d2041)
 
-# Step 2: Chạy các cell ở notebook 7 (07_vectorstores.ipynb)
-![image](https://github.com/user-attachments/assets/9d081191-cd0c-42c0-a18e-8e470fda22f0)
+- Tìm đến phần này và bấm Launch
+![image](https://github.com/user-attachments/assets/1fcfe2e5-a153-4c78-9cd2-206ae413699f)
 
+
+# Step 2: Chạy các cell ở notebook 7 (07_vectorstores.ipynb)
 ![image](https://github.com/user-attachments/assets/a117e902-937e-4211-b414-a3dd63f048ff)
 
 - Ở task 1: thêm ID của bài báo đã tìm ở step 1 vào cell trong hình
