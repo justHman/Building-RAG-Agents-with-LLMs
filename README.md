@@ -35,6 +35,8 @@ Sau khi chạy xong -> Bấm Acesstask như hình dưới
 
 ![image](https://github.com/user-attachments/assets/dca604a1-cd30-4bdf-9f67-c8e700194db8)
 
+Nếu thành công ròi, cho xin 1 follow nhé :>
+
 
 
 
