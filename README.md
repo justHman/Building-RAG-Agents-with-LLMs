@@ -9,6 +9,7 @@ Step 2: Chạy các cell ở notebook 7 (07_vectorstores.ipynb)
 ![image](https://github.com/user-attachments/assets/a117e902-937e-4211-b414-a3dd63f048ff)
 
 Ở task 1: thêm ID của bài báo đã tìm ở step 1 vào cell trong hình
+
 Ví dụ: [1] arXiv:2505.00040 [pdf, html, other] -> ArxivLoader(query="2505.00040").load(),
 
 Sau đó chạy các cell còn lại để tạo ra file docstore_index.tgz ở structure bên trái, nơi chứa các files notebook và src
@@ -26,11 +27,12 @@ Chạy tiếp cell sau để tạo ra file server_app.py:
 
 ![image](https://github.com/user-attachments/assets/746a4ffb-0299-4e37-b575-af5da1d41cc4)
 
-Step 4: Ở notebook 8 chạy cell dưới ảnh để tạo ra link: Gradio
+Step 4: Ở notebook 8 chạy cell dưới ảnh để tạo ra link frontend: Gradio
 
 ![image](https://github.com/user-attachments/assets/a5a79cd4-be09-4034-b808-b009bac477b9)
 
 Rồi bấm vào link và Evalue model
+
 Sau khi chạy xong -> Bấm Acesstask như hình dưới
 
 ![image](https://github.com/user-attachments/assets/dca604a1-cd30-4bdf-9f67-c8e700194db8)
