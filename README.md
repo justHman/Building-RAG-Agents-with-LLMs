@@ -11,7 +11,7 @@ Step 2: Chạy các cell ở notebook 7 (07_vectorstores.ipynb)
 Ở task 1: thêm ID của bài báo đã tìm ở step 1 vào cell trong hình
 Ví dụ: [1] arXiv:2505.00040 [pdf, html, other] -> ArxivLoader(query="2505.00040").load(),
 
-Sau đó chạy các cell còn lại để tạo ra file docstore_index.tgz
+Sau đó chạy các cell còn lại để tạo ra file docstore_index.tgz ở structure bên trái, nơi chứa các files notebook và src
 
 Step 3: Vào notebook 9 tìm phần hình dưới
 
