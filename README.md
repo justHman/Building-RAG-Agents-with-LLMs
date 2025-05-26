@@ -55,7 +55,8 @@ Link code:
 https://docs.google.com/document/d/1zmPgGvXUaWOG6CPtOg_6YRj2URT7hFIpZa8tFExy8Bk/edit?usp=sharing
 
 - Liên hệ để cấp quyền:
-  ![image](https://github.com/user-attachments/assets/e821f002-1b9a-4eca-9621-b18c26729e1d)
+  
+![image](https://github.com/user-attachments/assets/e821f002-1b9a-4eca-9621-b18c26729e1d)
 
 - Chạy tiếp cell sau để tạo ra file server_app.py:
 
