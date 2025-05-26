@@ -54,6 +54,9 @@ Dự án hướng dẫn xây dựng một hệ thống **RAG Agent (Retrieval-Au
 Link code:
 https://docs.google.com/document/d/1zmPgGvXUaWOG6CPtOg_6YRj2URT7hFIpZa8tFExy8Bk/edit?usp=sharing
 
+- Liên hệ để cấp quyền:
+  ![image](https://github.com/user-attachments/assets/e821f002-1b9a-4eca-9621-b18c26729e1d)
+
 - Chạy tiếp cell sau để tạo ra file server_app.py:
 
 ![image](https://github.com/user-attachments/assets/746a4ffb-0299-4e37-b575-af5da1d41cc4)
