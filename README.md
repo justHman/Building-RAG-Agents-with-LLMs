@@ -68,7 +68,7 @@ https://docs.google.com/document/d/1zmPgGvXUaWOG6CPtOg_6YRj2URT7hFIpZa8tFExy8Bk/
 ![image](https://github.com/user-attachments/assets/1ce08f59-d69e-4501-bfb9-65bbc7e8dbf6)
 
 
-- Rồi bấm vào link và Evalue model
+- Rồi bấm vào link và Evalue model 
 
 ![image](https://github.com/user-attachments/assets/ae74fc3a-8008-492b-a1f0-62028d62a199)
 
