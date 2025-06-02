@@ -49,7 +49,7 @@ Dự án hướng dẫn xây dựng một hệ thống **RAG Agent (Retrieval-Au
 
 ![image](https://github.com/user-attachments/assets/08ad2191-076b-457a-aa36-cca008c645c4)
 
-- Thay đổi code trong cell bằng code bên dưới và chạy cell đó
+- Thay đổi code trong cell bằng code bên dưới và chạy cell đó 
 
 Link code:
 https://docs.google.com/document/d/1zmPgGvXUaWOG6CPtOg_6YRj2URT7hFIpZa8tFExy8Bk/edit?usp=sharing
