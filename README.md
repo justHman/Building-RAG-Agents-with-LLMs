@@ -10,7 +10,7 @@
 ## 📚 Mục lục 
 
 - [🚀 Giới thiệu](#-giới-thiệu) 
-- [📎 Hướng dẫn từng bước](#-hướng-dẫn-từng-bước)
+- [📎 Hướng dẫn từng bước](#-hướng-dẫn-từng-bước) 
   - [🔹 Step 1: Tìm bài báo trên arXiv](#-step-1-tìm-bài-báo-trên-arxiv)
   - [🔹 Step 2: Vector hoá với notebook 07](#-step-2-vector-hoá-với-notebook-07)
   - [🔹 Step 3: Khởi tạo API với notebook 09](#-step-3-khởi-tạo-api-với-notebook-09)
