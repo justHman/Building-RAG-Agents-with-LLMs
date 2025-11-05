@@ -2,7 +2,7 @@
 
 ![Python](https://img.shields.io/badge/python-3.10-blue.svg)
 ![LangChain](https://img.shields.io/badge/langchain-v0.1.0-green)
-![License](https://img.shields.io/github/license/yourname/yourrepo)
+![License](https://img.shields.io/github/license/yourname/yourrepo) 
 ![Stars](https://img.shields.io/github/stars/yourname/yourrepo?style=social)    
 
 ---  
